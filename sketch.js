@@ -10,7 +10,7 @@ function setup() {
 }
 function draw() {
   // put drawing code here
-  background(155);
+  background(152,190,100);
   freq = constrain(map(mouseX, 0, width, 100, 500), 100, 500);
   amp = constrain(map(mouseY, height, 0, 0, 1), 0, 1);
 
